@@ -41,8 +41,8 @@ public class CheckPhoneNumbers {
 
     public static void main(String[] args) {
 
-        //String absolutePath= "C:\\Users\\User\\IdeaProjects\\Module_10_Input_output_streams\\phone_numbers";
-        String absolutePath= "phone_numbers";
+        //String absolutePath= "C:\\Users\\User\\IdeaProjects\\Module_10_Input_output_streams\\phone_numbers.txt";
+        String absolutePath= "phone_numbers.txt";
         File file = new File(absolutePath);
 
         if(!file.exists()) {
